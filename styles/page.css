@@ -1,0 +1,46 @@
+.home-page-container {
+    display: grid;
+}
+
+.home-page-image-container {
+
+}
+
+.home-page-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.home-page-image-container {
+    grid-area: 1 / 1 / 10 / 10;
+
+}
+.home-page-text-title-container {
+    grid-area: 2 / 6 / 3 / 9;
+}
+.home-page-text-desc-container {
+    grid-area: 3 / 6 / 5 / 9;
+}
+
+.home-welcome-text {
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 65px;
+    horiz-align: center;
+    text-align: center;
+    margin: 0;
+}
+
+.home-desc-text {
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 30px;
+    horiz-align: center;
+    text-align: center;
+    margin: 0;
+}
